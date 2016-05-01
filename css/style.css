@@ -1,0 +1,101 @@
+/*html{
+	height: 100%;
+}*/
+body {
+  /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+img{
+  max-height: 85vh;
+}
+
+.img-imp{
+	max-height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+.triangle{
+
+  padding-top: 15em;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+  /*position: absolute;
+  top: 50%;
+  left: 50%;*/
+  /*margin-right: -50%;
+  transform: translate(-50%, -50%);*/
+}
+#about{
+ 
+  height: 100vh;
+  position: relative;
+  text-align: center;
+  
+  
+}
+#second{
+  display: block;
+  margin-top: -160px;
+}
+
+.fade.ng-hide {
+  opacity: 0;
+}
+
+.fade.ng-hide-remove,
+.fade.ng-hide-add {
+  display: block !important;
+}
+
+.fade.ng-hide-remove {
+  transition: all linear 1000ms;
+}
+.social-media{
+  display: inline-block;
+  font-size: 5em;
+}
+.btn-linkedin{
+  color: #0077B5;
+  margin: 0 5px;
+}
+.btn-github{
+  color: #000;
+  margin: 0 5px;
+}
+.btn-twitter{
+  color: #55acee;
+  margin: 0 5px;
+}
+.social-footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+#moarmusique{
+  margin-top: 5%;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 15%;
+  padding-top: 5px;
+}
+.projects{
+  max-height: 80%;
+}
