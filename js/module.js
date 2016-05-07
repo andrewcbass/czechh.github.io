@@ -1,10 +1,15 @@
 "use strict";
+(function(){
+angular
+  .module('myApp', [
+    'ngAnimate', 
+    'ui.router', 
+    'ui.materialize'])
+  .config(config);
 
+config.$inject = ['$stateProvider', '$urlRouterProvider'];
 
-var app = angular.module('myApp', ['ngAnimate', 'ui.router', 'ui.materialize']);
-
-app.config(function($stateProvider, $urlRouterProvider) {
-
+function config($stateProvider, $urlRouterProvider){
   $stateProvider
     .state("home", {
       url: "/",
@@ -17,5 +22,6 @@ app.config(function($stateProvider, $urlRouterProvider) {
       controller: "projectsCtrl"
     })
   $urlRouterProvider.otherwise("/");
-})
+}
 
+})();
